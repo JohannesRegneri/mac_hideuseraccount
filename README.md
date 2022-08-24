@@ -35,9 +35,11 @@ This will completly hide the account from the Login Screen. You need to have a s
 
 ### Disable User-Account
 ```
-chsh -s /usr/bin/false <username>
+sudo chsh -s /usr/bin/false <username>
 ```
+
+
 ### Enable User-Account
 ```
-chsh -s /bin/bash <username>
+sudo chsh -s /bin/bash <username>
 ```
